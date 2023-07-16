@@ -23,7 +23,7 @@ config :phx_new, PhxNewWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "N6pon//QwZQx+ExdHFRjBiry/4ttWyOG6sb+YnSMrtHcvKZnFVAFrHbGdHn1UlSM",
+  secret_key_base: "0U+lmBTlTke//QjNxCwKblR14EN/skabvbdEUCEdBqgTUw2gJCN9jKd+dMHOM0AZ",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
