@@ -7,7 +7,7 @@ defmodule PhxNewWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_phx_new_key",
-    signing_salt: "sIShBHZp",
+    signing_salt: "tQd1muAj",
     same_site: "Lax"
   ]
 

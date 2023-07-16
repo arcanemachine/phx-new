@@ -17,7 +17,7 @@ config :phx_new, PhxNew.Repo,
 # you can enable the server option below.
 config :phx_new, PhxNewWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "N4+GWGaOQIdYNdv+jyJEUQpCGyCDUFHDvn0bdAVhKoI/NOsNLiynCYGaYQRjTySJ",
+  secret_key_base: "7wthtB0kc4OUHVIVBJGNoVP4BM4mntbAItRGbZe9YPy7ymF+4nBdXlpmtZQ4RTO5",
   server: false
 
 # In test we don't send emails.

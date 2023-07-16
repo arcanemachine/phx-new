@@ -18,7 +18,7 @@ config :phx_new, PhxNewWeb.Endpoint,
     layout: false
   ],
   pubsub_server: PhxNew.PubSub,
-  live_view: [signing_salt: "c+eaiytS"]
+  live_view: [signing_salt: "lmvJ6a/j"]
 
 # Configures the mailer
 #
