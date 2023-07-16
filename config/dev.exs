@@ -14,8 +14,8 @@ config :phx_new, PhxNew.Repo,
 # debugging and code reloading.
 #
 # The watchers configuration can be used to run external
-# watchers to your application. For example, we use it
-# with esbuild to bundle .js and .css sources.
+# watchers to your application. For example, we can use it
+# to bundle .js and .css sources.
 config :phx_new, PhxNewWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
@@ -23,7 +23,7 @@ config :phx_new, PhxNewWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "4pQ9u1T/FiJKlqYrKa9wXuLdrf3FVX6oJoOiuYVv5hHw9CZrzOCzwXAiDxCHefMS",
+  secret_key_base: "6y/SSIlJQXFw5S8mf63cCympVkbnhFHxzorCgTklb4mduLiOvJxGnpTr4wU0j0NK",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:default, ~w(--watch)]}
